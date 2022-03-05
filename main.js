@@ -1,6 +1,6 @@
 
 // Create canvas variable
-let canvas = document.getElementById("myCanvas");
+var canvas = document.getElementById("myCanvas");
 
 //Set initial positions for ball and hole images.
 ball_y=0;
