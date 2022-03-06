@@ -3,7 +3,7 @@
 var canvas = fabric.canvas("myCanvas");
 
 //Set initial positions for ball and hole images.
-ball_y=0;
+ball_y = 0;
 ball_x = 0;
 hole_y = 400;
 hole_x = 800;
