@@ -1,6 +1,6 @@
 
 // Create canvas variable
-var canvas = new fabric.canvas("myCanvas");
+var canvas = new fabric.Canvas("myCanvas");
 
 //Set initial positions for ball and hole images.
 ball_y = 0;
