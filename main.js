@@ -1,6 +1,6 @@
 
 // Create canvas variable
-var canvas = document.getElementById("myCanvas");
+var canvas = fabric.canvas("myCanvas");
 
 //Set initial positions for ball and hole images.
 ball_y=0;
