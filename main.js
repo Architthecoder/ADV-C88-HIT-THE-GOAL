@@ -111,7 +111,7 @@ function my_keydown(e)
 		if(ball_x >5)
 		{
 			// Write a code to move ball left side.
-			ball_x = ball_y -= block_image_height;
+			ball_x = ball_x - block_image_width;
 			console.log("Block image height = " + block_image_height);
 			console.log("When down arrow key is pressed, X = " + ball_x + ", Y = " + ball_y);
 			canvas.remove(ball_obj);
@@ -124,7 +124,7 @@ function my_keydown(e)
 		if(ball_x <=1050)
 		{
 			// Write a code to move ball right side.
-			ball_x = ball_y += block_image_height;
+			ball_x = ball_x += block_image_height;
 			console.log("Block image height = " + block_image_height);
 			console.log("When down arrow key is pressed, X = " + ball_x + ", Y = " + ball_y);
 			canvas.remove(ball_obj);
